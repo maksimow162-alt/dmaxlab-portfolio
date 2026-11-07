@@ -128,7 +128,7 @@ export const portfolioProjects: PortfolioProject[] = [
     name: 'BLACK LABEL',
     url: 'https://black-label-barbersh-ss0i.bolt.host/',
     preview: {
-      src: '/previews/black-label.jpg',
+      src: `${import.meta.env.BASE_URL}previews/black-label.jpg`,
       alt: 'Главная страница сайта BLACK LABEL: чёрно-золотой дизайн барбершопа',
       width: 1200,
       height: 630,
@@ -143,7 +143,7 @@ export const portfolioProjects: PortfolioProject[] = [
     name: 'Чистый Дом',
     url: 'https://kazan-clean-home-demo.lovable.app/',
     preview: {
-      src: '/previews/chistyi-dom.png',
+      src: `${import.meta.env.BASE_URL}previews/chistyi-dom.png`,
       alt: 'Главная страница сайта «Чистый Дом»: уборка квартир и офисов в Казани',
       width: 1920,
       height: 1080,

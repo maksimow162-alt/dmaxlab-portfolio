@@ -11,8 +11,8 @@ export default function Portfolio() {
           <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <SectionHeading
               eyebrow="Портфолио"
-              title="Демонстрационные работы"
-              description="Примеры сайтов, которые студия создала для демонстрации подхода. Это не реальные заказы клиентов."
+              title="Наши проекты и разработки"
+              description="Здесь представлены демонстрационные цифровые продукты DmaxLab. Показываем наши возможности в разработке, дизайне и создании удобных цифровых решений."
             />
           </div>
         </Reveal>
@@ -27,7 +27,7 @@ export default function Portfolio() {
 
         <Reveal delay={150}>
           <p className="mt-10 text-center text-sm text-graphite-400">
-            Все проекты на этой странице - демонстрационные работы, созданные DmaxLab для примера.
+            Все проекты на этой странице — демонстрационные работы DmaxLab, созданные для демонстрации наших возможностей.
           </p>
         </Reveal>
       </div>

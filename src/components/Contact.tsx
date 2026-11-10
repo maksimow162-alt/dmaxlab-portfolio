@@ -68,8 +68,8 @@ export default function Contact() {
               </h2>
 
               <p className="text-center text-base leading-[1.5] text-graphite-300 sm:text-lg">
-                Расскажите о вашем бизнесе, и мы вместе определим,
-                каким должен быть сайт.
+                Расскажите о своей задаче или идее. Вместе найдём подходящее
+                цифровое решение для вашего бизнеса.
               </p>
 
               <a
@@ -162,7 +162,7 @@ export default function Contact() {
                     minLength={10}
                     maxLength={3000}
                     rows={5}
-                    placeholder="Какой сайт вам нужен? Чем занимается ваша компания?"
+                    placeholder="Что вы хотите создать или автоматизировать? Опишите свою идею..."
                     className="w-full resize-y rounded-xl border border-white/10 bg-white/[0.04] px-4 py-4 text-base text-white outline-none transition focus:border-azure-400"
                   />
                 </label>

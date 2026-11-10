@@ -7,7 +7,9 @@ export default function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 px-5 sm:px-8 md:flex-row">
         <div className="flex flex-col items-center gap-3 md:items-start">
           <Logo />
-          <p className="text-sm text-graphite-400">Digital-студия, которая создаёт сайты для малого бизнеса.</p>
+          <p className="text-sm text-graphite-400">
+              Создаём цифровые продукты. Автоматизируем бизнес.
+          </p>
         </div>
 
         <nav aria-label="Футер">
@@ -22,7 +24,9 @@ export default function Footer() {
           </ul>
         </nav>
 
-        <p className="text-xs text-graphite-500">© {new Date().getFullYear()} DmaxLab. Все проекты - демонстрационные работы.</p>
+        <p className="text-xs text-graphite-500">
+          © {new Date().getFullYear()} DmaxLab. Демонстрационные проекты.
+        </p>
       </div>
     </footer>
   );

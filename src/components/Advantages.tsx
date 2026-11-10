@@ -10,7 +10,7 @@ export default function Advantages() {
           <SectionHeading
             eyebrow="Преимущества"
             title="Почему с нами удобно работать"
-            description="Три принципа, на которых строятся все наши сайты."
+            description="Три принципа, которые лежат в основе каждого нашего цифрового продукта."
           />
         </Reveal>
 

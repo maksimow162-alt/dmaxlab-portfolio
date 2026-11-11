@@ -1,3 +1,4 @@
+import { Send } from 'lucide-react';
 import Logo from '@/components/Logo';
 import { navItems } from '@/data/siteContent';
 
@@ -7,16 +8,30 @@ export default function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 px-5 sm:px-8 md:flex-row">
         <div className="flex flex-col items-center gap-3 md:items-start">
           <Logo />
+
           <p className="text-sm text-graphite-400">
-              Создаём цифровые продукты. Автоматизируем бизнес.
+            Создаём цифровые продукты. Автоматизируем бизнес.
           </p>
+
+          <a
+            href="https://t.me/DmaxLab_Official"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm text-azure-400 transition-colors hover:text-white"
+          >
+            <Send className="h-4 w-4" />
+            Официальный Telegram-канал
+          </a>
         </div>
 
         <nav aria-label="Футер">
           <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
             {navItems.map((item) => (
               <li key={item.href}>
-                <a href={item.href} className="text-sm text-graphite-300 transition-colors hover:text-white">
+                <a
+                  href={item.href}
+                  className="text-sm text-graphite-300 transition-colors hover:text-white"
+                >
                   {item.label}
                 </a>
               </li>

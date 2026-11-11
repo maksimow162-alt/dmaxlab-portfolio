@@ -1,4 +1,11 @@
-import { ArrowRight, Code2, Bot, Workflow, Sparkles } from 'lucide-react';
+import {
+  ArrowRight,
+  Code2,
+  Bot,
+  Workflow,
+  Sparkles,
+  Send,
+} from 'lucide-react';
 import Reveal from '@/components/Reveal';
 
 const directions = [
@@ -30,7 +37,6 @@ export default function Hero() {
 
       <div className="relative mx-auto grid w-full max-w-6xl gap-16 px-5 sm:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <div className="flex flex-col items-start gap-7">
-          
 
           <Reveal delay={120}>
             <div className="flex items-center gap-2 rounded-full border border-azure-500/25 bg-azure-500/10 px-4 py-2">
@@ -44,9 +50,9 @@ export default function Hero() {
           <Reveal delay={180}>
             <h1 className="text-4xl font-extrabold leading-[1.12] tracking-tight sm:text-5xl md:text-6xl lg:text-[4.25rem]">
               Создаём цифровые продукты.
-               {' '}
-               <span className="text-gradient">
-               Автоматизируем бизнес.
+              {' '}
+              <span className="text-gradient">
+                Автоматизируем бизнес.
               </span>
             </h1>
           </Reveal>
@@ -84,6 +90,34 @@ export default function Hero() {
               </a>
             </div>
           </Reveal>
+
+          <Reveal delay={500}>
+            <a
+              href="https://t.me/DmaxLab_Official"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Открыть официальный Telegram-канал DmaxLab"
+              className="group flex w-full max-w-md items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-4 transition-all duration-300 hover:-translate-y-1
+
+
+hover:border-azure-400/40 hover:bg-white/[0.07]"
+            >
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-azure-500/15 text-azure-400 transition-colors group-hover:bg-azure-500/25">
+                <Send className="h-5 w-5" />
+              </span>
+
+              <span className="flex flex-1 flex-col gap-1">
+                <span className="text-sm font-semibold text-white">
+                  DmaxLab | Official
+                </span>
+                <span className="text-xs text-graphite-400">
+                  Проекты, разработки и новости студии
+                </span>
+              </span>
+
+              <ArrowRight className="h-5 w-5 shrink-0 text-graphite-400 transition-all duration-300 group-hover:translate-x-1 group-hover:text-azure-400" />
+            </a>
+          </Reveal>
         </div>
 
         <Reveal delay={300} className="relative hidden h-[26rem] lg:block">
@@ -91,15 +125,15 @@ export default function Hero() {
             aria-hidden="true"
             className="absolute inset-x-6 top-10 rounded-3xl border border-white/10 bg-graphite-850/80 p-5 shadow-[0_40px_80px_-30px_rgba(0,0,0,0.8)] backdrop-blur-xl animate-float"
           >
-
-
-<div className="mb-5 flex items-center justify-between">
+            <div className="mb-5 flex items-center justify-between">
               <div className="flex items-center gap-1.5">
                 <span className="h-2.5 w-2.5 rounded-full bg-graphite-600" />
                 <span className="h-2.5 w-2.5 rounded-full bg-graphite-600" />
                 <span className="h-2.5 w-2.5 rounded-full bg-graphite-600" />
               </div>
-              <span className="text-xs text-graphite-400">DmaxLab / Digital</span>
+              <span className="text-xs text-graphite-400">
+                DmaxLab / Digital
+              </span>
             </div>
 
             <div className="h-3 w-2/5 rounded-full bg-gradient-to-r from-azure-500 to-violet-500" />
